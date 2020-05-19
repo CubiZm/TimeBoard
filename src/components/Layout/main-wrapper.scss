@@ -1,0 +1,10 @@
+.main-wrapper {
+  margin: 0 auto;
+  max-width: 76.7rem;
+  padding: 0 2rem;
+
+  @media screen and (min-width: 192rem) {
+    max-width: 192rem;
+    padding: 0 30rem;
+  }
+}

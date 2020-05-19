@@ -1,0 +1,17 @@
+@import "./variables.scss";
+
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: $font-base;
+  font-weight: $font-regular;
+}
